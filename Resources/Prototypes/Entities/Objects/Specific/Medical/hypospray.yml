@@ -277,7 +277,7 @@
   parent: ChemicalMedipen
   id: AntiPoisonMedipen
   name: poison auto-injector
-  description: A rapid dose of anti-poison. Causes extreme stress when mixed with other medications.
+  description: A rapid dose of anti-poison chemicals.
   components:
   - type: Item
     inhandVisuals:
@@ -303,12 +303,13 @@
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 15
+        maxVol: 20
         reagents:
-        - ReagentId: Monover
-          Quantity: 15
-       # - ReagentId: Epinephrine
-       #   Quantity: 5
+        - ReagentId: Ethylredoxrazine  
+          Quantity: 10
+        - ReagentId: Stellibinin
+          Quantity: 10
+       #  ReagentId: Epinephrine  Quantity: 5
 
 - type: entity
   parent: ChemicalMedipen
